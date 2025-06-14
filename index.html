@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>OSPA - Cuidando tu salud</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/obras-sociales" target="_blank">Ley 23.660 - Obras Sociales</a>
+        <p>Estas en el sitio oficial de OSPA</p>
+    </header>
+    <!--BARRA DE NAVEGACION BOOTSTRAP-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo2.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./paginas/conocenos.html">Conocé OSPA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./paginas/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./paginas/saludybienestar.html">Salud y Bienestar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./paginas/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">+</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="main-section"> <!--Bienvenido a OSPA-->
+            <div class="bienvenida">
+                <h1>BIENVENIDO A OSPA</h1>
+                <p>OSPA salud, brindando servicios de calidad, accesibles y orientados a pensar en la familia.</p>
+                <p>¡Siempre cuidando tu salud y tu estilo de vida!</p>
+            </div>
+            <div class="ingresar"> <!--Ingresar como afiliado-->
+                <h2>Ingresar como afiliado</h2>
+                <form action="" method="get">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="" style="width: 100%;">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" name="contraseña" id="" style="width: 100%;">
+                    <label class="boton-afiliado" for="">Sos afiliado?<input class="boton-afiliado" type="checkbox" name="" id=""></label>
+                    <a class="boton" href="./paginas/servicios.html" target="_blank"><input class="boton" type="button" value="Ingresar"></a>
+                </form>
+                <div class="afiliarme">
+                    <h2>Quiero afiliarme a OSPA</h2> <!--Afiliarse-->
+                    <a class="boton" href="./paginas/conocenos.html" target="_blank"><input class="boton" type="button" value="Comenzar"></a>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="servicio">
+                <img src="./img/llamada.png" alt="llamada">
+                <a href="">URGENCIAS Y EMERGENCIAS <br> 0800-777-7800</a>
+            </div>
+            <div class="servicio">
+                <img src="./img/cara-de-oso.png" alt="asistente-virtual">
+                <a href="">OSPI, <br> TU ASISTENTE VIRTUAL</a>
+            </div>
+            <div class="servicio">
+                <img src="./img/informacion.png" alt="informacion">
+                <a href="./paginas/contacto.html" target="_blank">INFORMACION 24HS <br> 0800-555-7000</a>
+            </div>
+            <div class="servicio">
+                <img src="./img/telefono-inteligente.png" alt="atencion-servicios">
+                <a href="./paginas/servicios.html" target="_blank">ATENCION DE SERVICIOS <br> 0810-333-2240</a>
+            </div>
+        </section>
+        <div class="caja-novedades">
+            <h2>ULTIMAS NOVEDADES</h2>
+            <p>Informacion que te hace bien</p>
+        </div>
+        <section class="novedades"> <!--Novedades-->
+            <div>
+                <img src="./img/medicamentos.jpg" alt="medicamentos">
+                <h3>Bonos para acceder a medicamentos</h3>
+                <p>Cada vez son mas las empresas farmaceuticas que se adhieren para brindar un servicio de calidad.</p>
+                <input type="button" value="Ver mas" class="boton">
+            </div>
+            <div>
+                <img src="./img/familiaospa.jpg" alt="familiaospa">
+                <h3>Familia OSPA</h3>
+                <p>Abrimos los cupos para que puedas adherirte con un miembro de tu familia. ¡Sigamos sumando buenos
+                    momentos!</p>
+                <input type="button" value="Ver mas" class="boton">
+            </div>
+            <div>
+                <img src="./img/saludmental.jpg" alt="saludmental">
+                <h3>Salud Mental: Seguimos avanzando!</h3>
+                <p>Salud mental se adhiere a los prestamos de OSPA y comenzara a ofrecer servicios con reintegro
+                    asegurado.</p>
+                <input type="button" value="Ver mas" class="boton">
+            </div>
+        </section>
+    </main>
+    <div class="wap">
+        <a href=""> <img src="./img/whatsapp.png" alt="wap"></a>
+    </div>
+    <footer>
+        <section class="foot">
+            <div class="ospa">
+                <h3>© 2025, OSPA Salud</h3>
+                <p>Obra Social Pensando en Argentina</p>
+                <img src="./img/verisign.png" alt="veri-sign">
+                <img src="./img/base-de-datos.png" alt="base-de-datos">
+            </div>
+            <div class="informacion">
+                <h4>Sobre OSPA</h4>
+                <ol>
+                    <li><a href="./paginas/conocenos.html" target="_blank">Conoce OSPA</a></li>
+                    <li><a href="./paginas/servicios.html" target="_blank">Servicios Adheridos</a></li>
+                    <li><a href="./paginas/saludybienestar.html" target="_blank">Novedades</a></li>
+                    <li><a href="./paginas/conocenos.html" target="_blank">Politica de Privacidad</a></li>
+                </ol>
+            </div>
+            <div class="afiliarse">
+                <h4>Sumate a OSPA</h4>
+                <ol>
+                    <li><a href="./paginas/conocenos.html">Formulario de Afiliacion</a></li>
+                    <li><a href="./paginas/servicios.html">Accede a tu perfil</a></li>
+                    <li><a href="./paginas/contacto.html">Contacto</a></li>
+                </ol>
+            </div>
+            <div class="icon">
+                <h4>¡Contactanos y seguinos!</h4>
+                <div class="icons">
+                    <img src="./img/llamada.png" alt="llamada">
+                    <a href="">(888) 010-0100</a>
+                </div>
+                <div class="icons">
+                    <img src="./img/chat.png" alt="chat">
+                    <a href="./paginas/contacto.html">Contactanos</a>
+                </div>
+                <div class="icons">
+                    <img src="./img/email.png" alt="email">
+                    <a href="">ospa@salud.com.ar</a>
+                </div>
+            </div>
+        </section>
+        <section class="privacidad">
+            <p>Todos los derechos reservados. <br> Superintendencia de Servicios de Salud. Organo de control de Obras
+                Sociales y Entidades de Medicina Prepaga.</p>
+            <a href="">Politica de privacidad</a>
+            <a href="">Defensa del consumidor</a>
+            <a href="">Baja del servicio</a>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
