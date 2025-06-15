@@ -12,7 +12,7 @@
 body {
     font-family: "Cal Sans", sans-serif;
     font-size: 15px;
-    background-color: #EEE5E9;
+    background-color: white;
 }
 
 /* -------------HEADER--------------- */
@@ -26,6 +26,7 @@ header {
     justify-content: flex-end;
     font-size: 10px;
     padding: 5px;
+    background-color: #878c8f7d;
 }
 header p {
     margin-bottom: 0;
@@ -37,7 +38,7 @@ header p {
 
 /* -------------- NAV BAR ------------------ */
 .navbar {
-    background-color: #1B263B !important;
+    background-color: #FCF7FF !important;
     position: sticky;
     top: 0;
     height: 60px;
@@ -60,12 +61,12 @@ header p {
     align-items: center;
 }
 .btn {
-    color: white;
-    border: 1px solid white;
+    color: black;
+    border: 1px solid black;
 }
 .btn-outline-success {
     --bs-btn-hover-bg: #0d1b2aa0;
-    --bs-btn-hover-border-color: white;
+    --bs-btn-hover-border-color: rgb(0, 0, 0);
     --bs-btn-active-bg: rgba(255, 255, 255, 0.153);
     --bs-btn-active-border-color: rgba(255, 255, 255, 0.153);
 }
@@ -100,7 +101,7 @@ header p {
     margin: 0;
 }
 .ingresar {
-    background-color: #0d1b2aa0;
+    background-color: #878c8f7d;
     border-radius: 5px;
     width: 20%;
     padding: 30px;
@@ -122,6 +123,7 @@ header p {
     align-items: center;
     color: black;
     font-family: "Quicksand", sans-serif;
+    font-weight: 500;
 }
 .afiliarme {
     display: flex;
@@ -142,7 +144,7 @@ header p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #0d1b2aa0;
+    background-color: #878c8f7d;
     padding: 15px;
 }
 .servicio {
@@ -223,7 +225,7 @@ header p {
     padding: 80px;
 }
 .conocenos-bienvenida div {
-    background-color: #0d1b2aa0;
+    background-color: #878c8f7d;
     width: 50%;
     height: 320px;
     padding: 10px;
@@ -290,10 +292,10 @@ header p {
 }
 .mas-servicios a {
     text-decoration: none;
-    color: white;
-    border: 15px solid #1B263B;
+    color: black;
     border-radius: 5px;
-    background-color: #1B263B;
+    padding: 15px;
+    background-color: #11244788;
 }
 
 /* ------------- PAGINA DE SERVICIOS ------------- */
@@ -311,7 +313,7 @@ header p {
     width: 100%;
 }
 .caja2-servicios {
-    background-color: #112447ba;
+    background-color: #878c8f7d;
     color: black;
     text-align: center;
     padding: 15px;
@@ -328,7 +330,7 @@ header p {
     font-weight: 600;
 }
 .caja2-servicios button {
-    background-color: #1B263B;
+    background-color: #11244788;
     width: 30px;
     border: 0;
     border-radius: 5px;
@@ -352,7 +354,7 @@ header p {
 .caja3-servicios h2 {
     font-size: 15px;
     color: black;
-    background-color: #112447ba;
+    background-color: #11244788;
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
@@ -365,7 +367,7 @@ header p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #0d1b2aa0;
+    background-color: #878c8f7d;
     padding: 15px;
     margin-top: 28px;
 }
@@ -401,7 +403,7 @@ header p {
 .saludybienestar {
     color: black;
     text-align: center;
-    background-color: #112447ba;
+    background-color: #878c8f7d;
     padding: 8px;
 }
 .saludybienestar h1 {
@@ -516,7 +518,7 @@ select {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #7c7c7c96;
+    background-color: #878c8f7d;
     color: black;
     width: 300px;
     height: 180px;
@@ -541,7 +543,7 @@ select {
 
 /* ---------------FOOTER---------------- */
 footer {
-    background-color: #1B263B;
+    background-color: #C2C1C2;
     font-size: 12px;
     color: black;
     padding-bottom: 15px;
