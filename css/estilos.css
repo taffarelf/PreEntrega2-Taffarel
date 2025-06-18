@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cal Sans", sans-serif;
+  font-size: 15px;
+  background-color: white;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  padding-right: 0;
+}
+.foot h4 {
+  font-family: "Cal Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+}
+.foot ol {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=estilos.css.map */
