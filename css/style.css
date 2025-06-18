@@ -32,11 +32,11 @@ header p {
     margin-bottom: 0;
     padding-left: 10px;
 }
+
+/* -------------- NAV BAR ------------------ */
 .logo {
     height: 80px;
 }
-
-/* -------------- NAV BAR ------------------ */
 .navbar {
     background-color: #FCF7FF !important;
     position: sticky;
