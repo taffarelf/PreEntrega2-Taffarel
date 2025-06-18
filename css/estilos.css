@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=New+Amsterdam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=New+Amsterdam&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Funnel+Display:wght@300..800&family=New+Amsterdam&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asar&family=Bebas+Neue&family=Cal+Sans&family=Funnel+Display:wght@300..800&family=Markazi+Text:wght@400..700&family=New+Amsterdam&family=Quicksand:wght@300..700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +12,15 @@ body {
   font-family: "Cal Sans", sans-serif;
   font-size: 15px;
   background-color: white;
+}
+
+footer {
+  background-color: #C2C1C2;
+  font-family: "Cal Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+  padding-bottom: 15px;
 }
 
 .foot {
@@ -25,6 +38,62 @@ body {
 .foot ol {
   padding: 0;
   margin-bottom: 0;
+}
+
+.ospa p {
+  margin: 0;
+}
+.ospa img {
+  width: 50px;
+  color: black;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.informacion ol li {
+  list-style: none;
+}
+.informacion ol li a {
+  text-decoration: none;
+  color: black;
+}
+
+.afiliarse ol li {
+  list-style: none;
+}
+.afiliarse ol li a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.icons img {
+  width: 15px;
+}
+.icons a {
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+
+.privacidad {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+.privacidad p {
+  margin: 0;
+}
+.privacidad a {
+  color: black;
 }
 
 /*# sourceMappingURL=estilos.css.map */
