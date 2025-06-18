@@ -16,19 +16,19 @@ body {
 }
 
 /* -------------HEADER--------------- */
-header a {
-    color: black;
-    padding-right: 10px;
-    border-right: 2px solid black;
-}
-header {
+.barra{
     display: flex;
     justify-content: flex-end;
     font-size: 10px;
     padding: 5px;
     background-color: #878c8f7d;
 }
-header p {
+.barra a{
+    color: black;
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+.barra p{
     margin-bottom: 0;
     padding-left: 10px;
 }
