@@ -392,35 +392,41 @@
     height: 450px;
     object-fit: cover;
 }
+
 .carousel-caption {
     color: black;
     background-color: #ffffff47;
     border-radius: 15px;
     padding: 10px 0px 0px 5px;
 }
-.saludybienestar{
+
+.saludybienestar {
     color: black;
     text-align: center;
     background-color: #878c8f7d;
     padding: 8px;
-    h1{
-    font-family: "Bebas Neue", sans-serif;
+
+    h1 {
+        font-family: "Bebas Neue", sans-serif;
     }
-    p{
-    padding: 5px 10px 10px 8px;
-    color: black;
-    font-size: 17px;
+
+    p {
+        padding: 5px 10px 10px 8px;
+        color: black;
+        font-size: 17px;
     }
-    .link-saludybienestar{
-        a{
-    padding-right: 30px;
-    border-top: 2px solid black;
-    padding-top: 10px;
-    color: #1B263B;
-    text-decoration: none;
+
+    .link-saludybienestar {
+        a {
+            padding-right: 30px;
+            border-top: 2px solid black;
+            padding-top: 10px;
+            color: #1B263B;
+            text-decoration: none;
         }
     }
 }
+
 .caja-destacados-a {
     font-family: "Markazi Text", serif;
     color: black;
@@ -428,28 +434,104 @@
     padding: 10px 0 0 10px;
     font-weight: 600;
 }
-.destacados{
+
+.destacados {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 300px);
     gap: 15px;
     margin-bottom: 8px;
 }
-.caja-destacados{
+
+.caja-destacados {
     background-size: cover;
-    h4{
-    color: black;
-    background-color: rgba(255, 255, 255, 0.671);
-    font-family: "Cal Sans", sans-serif;
-    margin-bottom: 2px;
+
+    h4 {
+        color: black;
+        background-color: rgba(255, 255, 255, 0.671);
+        font-family: "Cal Sans", sans-serif;
+        margin-bottom: 2px;
     }
-    button{
-    background-color: #7c7c7c8d;
-    width: 30%;
-    border: 2px solid white;
-    padding: 5px;
-    margin-left: 3px;
-    font-family: "QuickSand", sans-serif;
-    font-size: 12px;
+
+    button {
+        background-color: #7c7c7c8d;
+        width: 30%;
+        border: 2px solid white;
+        padding: 5px;
+        margin-left: 3px;
+        font-family: "QuickSand", sans-serif;
+        font-size: 12px;
+    }
+}
+
+/* MAIN PAGINA DE CONTACTOS */
+.caja-1 {
+    text-align: center;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: xxx-large;
+    padding-top: 5px;
+}
+
+section {
+    div {
+        .form-contacto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            font-size: 20px;
+            color: black;
+
+            input {
+                width: 50%;
+                height: 30px;
+                border-radius: 10px;
+                margin: 15px;
+            }
+
+            select {
+                text-align: center;
+                width: 250px;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+.urgencias {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #878c8f7d;
+    color: black;
+    width: 300px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 10px;
+
+    h2 {
+        font-family: "Markazi Text", serif;
+        font-size: 22px;
+    }
+
+    img {
+        width: 32px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1B263B;
+    }
+
+    p {
+        font-family: "Markazi Text", serif;
+        font-size: 20px;
     }
 }

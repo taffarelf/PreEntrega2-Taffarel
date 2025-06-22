@@ -497,6 +497,68 @@ body {
   font-size: 12px;
 }
 
+/* MAIN PAGINA DE CONTACTOS */
+.caja-1 {
+  text-align: center;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: xxx-large;
+  padding-top: 5px;
+}
+
+section div .form-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  font-size: 20px;
+  color: black;
+}
+section div .form-contacto input {
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+  margin: 15px;
+}
+section div .form-contacto select {
+  text-align: center;
+  width: 250px;
+  padding: 5px;
+}
+
+.urgencias {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tarjetas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(135, 140, 143, 0.4901960784);
+  color: black;
+  width: 300px;
+  height: 180px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.tarjetas h2 {
+  font-family: "Markazi Text", serif;
+  font-size: 22px;
+}
+.tarjetas img {
+  width: 32px;
+}
+.tarjetas a {
+  text-decoration: none;
+  color: #1B263B;
+}
+.tarjetas p {
+  font-family: "Markazi Text", serif;
+  font-size: 20px;
+}
+
 /* FOOTER */
 footer {
   background-color: #C2C1C2;
