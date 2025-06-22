@@ -1,16 +1,54 @@
-header{
+.barra {
     display: flex;
     justify-content: flex-end;
     font-size: 10px;
     padding: 5px;
     background-color: #878c8f7d;
-    a{
+
+    a {
+        color: black;
+        padding-right: 10px;
+        border-right: 2px solid black;
+    }
+
+    p {
+        margin-bottom: 0;
+        padding-left: 10px;
+    }
+}
+.logo{
+    height: 80px;
+}
+.navbar {
+    background-color: #FCF7FF !important;
+    position: sticky;
+    top: 0;
+    height: 60px;
+}
+.navbar-nav .nav-link.active {
     color: black;
-    padding-right: 10px;
-    border-right: 2px solid black;
-    }
-    p{
-    margin-bottom: 0;
-    padding-left: 10px;
-    }
+    font-size: 14px;
+}
+.me-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+.form-control {
+    width: 50%;
+    margin-left: auto !important;
+    height: 25px;
+    background-color: rgb(199 184 184 / 33%);
+}
+.d-flex {
+    align-items: center;
+}
+.btn {
+    color: black;
+    border: 1px solid black;
+}
+.btn-outline-success {
+    --bs-btn-hover-bg: #0d1b2aa0;
+    --bs-btn-hover-border-color: rgb(0, 0, 0);
+    --bs-btn-active-bg: rgba(255, 255, 255, 0.153);
+    --bs-btn-active-border-color: rgba(255, 255, 255, 0.153);
 }

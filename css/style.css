@@ -157,7 +157,7 @@ body {
     text-align: center;
     padding: 10px;
 }
-.banner img {
+.servicio img{
     width: 50px;
 }
 .caja-novedades h2 {
@@ -186,22 +186,22 @@ body {
     width: 350px;
     height: 400px;
 }
-.novedades h3 {
+.novedades div h3{
     font-size: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
 }
-.novedades p {
+.novedades div p{
     font-family: "Quicksand", sans-serif;
     font-size: 15px;
     font-weight: 600;
     padding-bottom: 10px;
 }
-.novedades img {
+.novedades div img{
     width: 300px;
     height: 200px;
 }
-.novedades input {
+.novedades div input{
     width: 100px;
     background-color: aliceblue;
     color: black;
@@ -230,28 +230,22 @@ body {
     height: 320px;
     padding: 10px;
 }
-.conocenos-bienvenida h1 {
+.conocenos-bienvenida div h1{
     font-size: 35px;
     text-align: justify;
     color: black;
 }
-.conocenos-bienvenida h3 {
+.conocenos-bienvenida div h3{
     font-size: 15px;
     text-align: justify;
     color: black;
 }
-.conocenos-bienvenida p {
+.conocenos-bienvenida div p{
     font-size: 15px;
     text-align: justify;
     padding: 12px;
     color: black;
     margin-bottom: 0px;
-}
-.mas-servicios {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
 }
 .caja-servicios h2 {
     font-family: "Markazi Text", serif;
@@ -289,6 +283,12 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 100;
+}
+.mas-servicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 .mas-servicios a {
     text-decoration: none;
@@ -554,7 +554,7 @@ footer {
     padding: 10px;
     padding-right: 0;
 }
-.foot h4 {
+.foot div h4, h3{
     font-family: "Cal Sans", sans-serif;
     font-size: 12px;
     font-weight: 600;

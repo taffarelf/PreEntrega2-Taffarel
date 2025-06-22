@@ -1,3 +1,4 @@
+/* FOOTER */
 footer {
     background-color: #C2C1C2;
     font-family: "Cal Sans", sans-serif;
@@ -11,14 +12,14 @@ footer {
     justify-content: space-around;
     padding: 10px;
     padding-right: 0;
-
-    h4 {
-        font-family: "Cal Sans", sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        margin: 0;
+    div{
+        h4 {
+            font-family: "Cal Sans", sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            margin: 0;
+        }
     }
-
     ol {
         padding: 0;
         margin-bottom: 0;
