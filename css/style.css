@@ -341,6 +341,13 @@ body {
     background-color: #11244788;
 }
 
+/* AGREGAR AL SCSS */
+.animate__animated.animate__pulse {
+    --animate-duration: 3s;
+    --animate-infinite: infinite;
+}
+
+
 /* ------------- PAGINA DE SERVICIOS ------------- */
 .img-A {
     width: 100%;
@@ -365,6 +372,12 @@ body {
     margin: 2px;
     width: 20%;
     font-family: "Quicksand", sans-serif;
+    transition: 1s;
+}
+
+.caja2-servicios:hover {
+    transform: scale(1.3);
+    background-color: #11244788;
 }
 
 .caja2-servicios h3 {
@@ -582,6 +595,11 @@ body {
     height: 180px;
     margin: 20px;
     border-radius: 10px;
+    transition: 1s;
+}
+
+.tarjetas:hover {
+    transform: scale(1.1);
 }
 
 .tarjetas h2 {
@@ -716,14 +734,17 @@ h3 {
         width: 150px;
         font-family: "QuickSand", sans-serif;
     }
-    .caja2-servicios h3{
+
+    .caja2-servicios h3 {
         font-size: 12px;
         font-weight: lighter;
     }
-    .caja2-servicios p{
+
+    .caja2-servicios p {
         font-size: 8px;
     }
-    .caja3-servicios p{
+
+    .caja3-servicios p {
         font-size: 10px;
     }
 }
@@ -751,19 +772,24 @@ h3 {
     .conocenos-bienvenida div p {
         font-size: 13px;
     }
-    .novedades div img{
+
+    .novedades div img {
         width: 250px;
     }
-    .novedades div h3{
+
+    .novedades div h3 {
         font-size: 15px;
     }
-    .novedades div p{
+
+    .novedades div p {
         font-size: 12px;
     }
-    .caja-destacados h4{
+
+    .caja-destacados h4 {
         font-size: 18px;
     }
-    .caja-destacados button{
+
+    .caja-destacados button {
         font-size: 10px;
     }
 }
@@ -772,6 +798,7 @@ h3 {
     .bienvenida p {
         font-size: 15px;
     }
+
     .navbar-collapse {
         background-color: #FCF7FF !important;
     }
@@ -783,23 +810,29 @@ h3 {
     .banner img {
         width: 40px;
     }
-    .caja2-servicios p{
+
+    .caja2-servicios p {
         font-weight: 400;
         color: black;
     }
-    .saludybienestar h1{
+
+    .saludybienestar h1 {
         font-size: 25px;
     }
-    .saludybienestar p{
+
+    .saludybienestar p {
         font-size: 12px;
     }
-    .saludybienestar a{
+
+    .saludybienestar a {
         font-size: 10px;
     }
-    .caja-destacados h4{
+
+    .caja-destacados h4 {
         font-size: 15px;
     }
-    .caja-destacados button{
+
+    .caja-destacados button {
         font-size: 10px;
     }
 }
@@ -860,15 +893,18 @@ h3 {
     .mas-servicios {
         font-size: 12px;
     }
-    .caja-destacados button{
+
+    .caja-destacados button {
         font-size: 8px;
         padding-left: 0;
         padding-right: 0;
     }
-    .carousel-caption h5{
+
+    .carousel-caption h5 {
         font-size: 15px;
     }
-    .carousel-caption p{
+
+    .carousel-caption p {
         font-size: 12px;
     }
 }
@@ -878,23 +914,29 @@ h3 {
         height: 80px;
         padding-top: 0;
     }
-    .d-flex{
+
+    .d-flex {
         margin: 5px;
     }
-    .me-auto{
+
+    .me-auto {
         padding-left: 10px;
     }
-    .form-control{
+
+    .form-control {
         width: 20%;
     }
-    .conocenos-bienvenida div{
+
+    .conocenos-bienvenida div {
         width: 60%;
     }
-    .caja2-servicios{
+
+    .caja2-servicios {
         width: 25%;
         margin: 4px;
     }
-    .caja3-servicios h2{
+
+    .caja3-servicios h2 {
         font-size: 12px;
     }
 }
@@ -921,7 +963,8 @@ h3 {
         flex-direction: column;
         text-align: center;
     }
-    .conocenos-bienvenida{
+
+    .conocenos-bienvenida {
         height: 420px;
     }
 
@@ -945,7 +988,8 @@ h3 {
     .grid-cajas h3 {
         font-size: 12px;
     }
-    .caja2-servicios{
+
+    .caja2-servicios {
         padding-top: 10px;
         padding-bottom: 10px;
         padding-right: 0;
@@ -953,39 +997,50 @@ h3 {
         width: 30%;
         margin: 2px;
     }
-    .caja3-servicios{
+
+    .caja3-servicios {
         margin-top: 5px;
     }
-    .caja3-servicios p{
+
+    .caja3-servicios p {
         font-size: 9px;
     }
-    .w-100{
+
+    .w-100 {
         height: 400px;
     }
-    .saludybienestar p{
+
+    .saludybienestar p {
         font-size: 10px;
     }
-    .destacados{
+
+    .destacados {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 200px);
     }
-    .caja-1 p{
+
+    .caja-1 p {
         font-size: 30px;
     }
-    .form-contacto{
+
+    .form-contacto {
         font-size: 12px;
     }
-    .tarjetas h2{
+
+    .tarjetas h2 {
         font-size: 15px;
     }
-    .tarjetas p{
+
+    .tarjetas p {
         font-size: 12px;
         margin-bottom: 0;
     }
-    .tarjetas a{
+
+    .tarjetas a {
         font-size: 10px;
     }
-    .tarjetas img{
+
+    .tarjetas img {
         width: 20px;
     }
 }
@@ -1065,28 +1120,36 @@ h3 {
     .conocenos-bienvenida {
         height: 320px;
     }
-    .conocenos-bienvenida div{
+
+    .conocenos-bienvenida div {
         width: 75%;
     }
+
     .grid-cajas h3 {
         font-size: 12px;
     }
-    .caja2-servicios h3{
+
+    .caja2-servicios h3 {
         font-size: 10px;
     }
-    .caja3-servicios h2{
+
+    .caja3-servicios h2 {
         font-size: 10px;
     }
-    .servicio img{
+
+    .servicio img {
         width: 40px;
     }
-    .caja4-servicios h3{
+
+    .caja4-servicios h3 {
         font-size: 15px;
     }
-    .caja4-servicios p{
+
+    .caja4-servicios p {
         font-size: 10px;
     }
-    .form-servicios{
+
+    .form-servicios {
         font-size: 10px;
     }
 }
@@ -1155,38 +1218,47 @@ h3 {
     .mas-servicios {
         font-size: 10px;
     }
-    .servicio img{
+
+    .servicio img {
         width: 30px;
     }
-    .servicio a{
+
+    .servicio a {
         font-size: 8px;
     }
-    .caja3-servicios h2{
+
+    .caja3-servicios h2 {
         margin: 2px;
         padding: 8px;
     }
-    .caja4-servicios h3{
+
+    .caja4-servicios h3 {
         font-size: 12px;
     }
-    .servicios-4{
+
+    .servicios-4 {
         margin: 10px;
     }
-    .tarjetas{
+
+    .tarjetas {
         margin: 10px;
     }
-    .tarjetas p{
+
+    .tarjetas p {
         font-size: 10px;
     }
 }
 
 @media screen and (max-width: 591px) {
-    .ingresar form{
+    .ingresar form {
         font-size: 12px;
         margin: 5px;
     }
-    .boton{
+
+    .boton {
         font-size: 12px;
     }
+
     .conocenos-bienvenida div {
         width: 100%;
         height: 220px;
@@ -1206,45 +1278,58 @@ h3 {
     .grid-cajas h3 {
         font-size: 10px;
     }
-    .caja2-servicios h3{
+
+    .caja2-servicios h3 {
         font-size: 8px;
     }
-    .servicios-3{
+
+    .servicios-3 {
         margin-top: 50px;
         row-gap: 35px;
     }
-    .caja3-servicios{
+
+    .caja3-servicios {
         height: 130px;
         margin-bottom: 5px;
     }
-    .caja3-servicios h2{
+
+    .caja3-servicios h2 {
         padding: 5px;
     }
-    .caja4-servicios p{
+
+    .caja4-servicios p {
         font-size: 8px;
     }
-    .form-servicios{
+
+    .form-servicios {
         font-size: 8px;
     }
-    .banner-1{
+
+    .banner-1 {
         margin-top: 40px;
     }
-    .saludybienestar a{
+
+    .saludybienestar a {
         font-size: 8px;
     }
-    .caja-1 p{
+
+    .caja-1 p {
         font-size: 25px;
     }
-    .form-contacto{
+
+    .form-contacto {
         font-size: 10px;
     }
-    .tarjetas p{
+
+    .tarjetas p {
         font-size: 8px;
     }
-    .foot{
+
+    .foot {
         font-size: 8px;
     }
-    .foot div h4{
+
+    .foot div h4 {
         font-size: 8px;
     }
 }
@@ -1257,38 +1342,49 @@ h3 {
     .conocenos-bienvenida div p {
         font-size: 10px;
     }
-    .caja2-servicios h3{
+
+    .caja2-servicios h3 {
         font-size: 6px;
     }
-    .caja2-servicios p{
+
+    .caja2-servicios p {
         font-size: 7px;
     }
-    .banner-1{
+
+    .banner-1 {
         padding: 10px;
     }
-    .caja3-servicios p{
+
+    .caja3-servicios p {
         font-size: 7px;
         margin-top: 5px;
     }
-    .caja4-servicios h3{
+
+    .caja4-servicios h3 {
         font-size: 10px;
     }
-    .caja4-servicios p{
+
+    .caja4-servicios p {
         font-size: 6px;
     }
-    .form-servicios{
+
+    .form-servicios {
         font-size: 6px;
     }
-    .caja-destacados h4{
+
+    .caja-destacados h4 {
         font-size: 10px;
     }
-    .caja-destacados button{
+
+    .caja-destacados button {
         font-size: 6px;
     }
-    .link-saludybienestar a{
+
+    .link-saludybienestar a {
         padding-right: 5px;
     }
-    .tarjetas{
+
+    .tarjetas {
         margin: 8px;
     }
 
@@ -1339,25 +1435,32 @@ h3 {
     .conocenos-bienvenida div p {
         font-size: 9px;
     }
-    .servicio img{
+
+    .servicio img {
         width: 20px;
     }
-    .servicio a{
+
+    .servicio a {
         font-size: 5px;
     }
-    .link-saludybienestar a{
+
+    .link-saludybienestar a {
         padding-right: 0;
     }
-    .tarjetas h2{
+
+    .tarjetas h2 {
         font-size: 12px;
     }
-    .tarjetas p{
+
+    .tarjetas p {
         font-size: 6px;
     }
-    .foot{
+
+    .foot {
         font-size: 6px;
     }
-    .ospa h3{
+
+    .ospa h3 {
         font-size: 7px;
     }
 }
@@ -1374,7 +1477,8 @@ h3 {
     .mas-servicios {
         font-size: 8px;
     }
-    .caja3-servicios h2{
+
+    .caja3-servicios h2 {
         font-size: 8px;
     }
 }
@@ -1387,6 +1491,7 @@ h3 {
     .novedades img {
         width: 200px;
     }
+
     .foot {
         font-size: 9px;
         padding-right: 10px;
