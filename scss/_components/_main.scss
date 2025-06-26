@@ -49,10 +49,8 @@
     }
 
     form {
-        display: flex;
-        flex-direction: column;
+        @include display (flex, column, center);
         flex-wrap: nowrap;
-        align-items: center;
         color: black;
         font-family: "Quicksand", sans-serif;
         font-weight: 500;
@@ -64,10 +62,8 @@
 }
 
 .afiliarme {
-    display: flex;
-    flex-direction: column;
+    @include display (flex, column, center);
     justify-content: center;
-    align-items: center;
     margin-top: 2px;
 
     .boton {
@@ -317,9 +313,7 @@
 }
 
 .caja3-servicios {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include display (flex, column, center);
     font-size: 10px;
     padding: 10px;
     margin: 3px;
@@ -476,9 +470,7 @@
 section {
     div {
         .form-contacto {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include display (flex, column, center);
             padding: 15px;
             font-size: 20px;
             color: black;

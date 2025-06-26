@@ -2,3 +2,10 @@ $color-principal: #FCF7FF;
 $color-secundario: #C2C1C2;
 $color-terciario: #878c8f7d;
 $color-botones: #1B263B;
+
+/* MIXINS */
+@mixin display ($flex, $column, $center){
+    display: $flex;
+    flex-direction: $column;
+    align-items: $center;
+}

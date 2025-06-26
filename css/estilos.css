@@ -1,3 +1,4 @@
+/* MIXINS */
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=New+Amsterdam&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=New+Amsterdam&family=Quicksand:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Funnel+Display:wght@300..800&family=New+Amsterdam&family=Quicksand:wght@300..700&display=swap");
@@ -125,8 +126,8 @@ body {
 .ingresar form {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   align-items: center;
+  flex-wrap: nowrap;
   color: black;
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
@@ -138,8 +139,8 @@ body {
 .afiliarme {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-top: 2px;
 }
 .afiliarme .boton {
