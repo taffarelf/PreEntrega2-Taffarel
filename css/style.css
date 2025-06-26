@@ -16,19 +16,21 @@ body {
 }
 
 /* -------------HEADER--------------- */
-.barra{
+.barra {
     display: flex;
     justify-content: flex-end;
     font-size: 10px;
     padding: 5px;
     background-color: #878c8f7d;
 }
-.barra a{
+
+.barra a {
     color: black;
     padding-right: 10px;
     border-right: 2px solid black;
 }
-.barra p{
+
+.barra p {
     margin-bottom: 0;
     padding-left: 10px;
 }
@@ -37,33 +39,40 @@ body {
 .logo {
     height: 80px;
 }
+
 .navbar {
     background-color: #FCF7FF !important;
     position: sticky;
     top: 0;
     height: 60px;
 }
+
 .navbar-nav .nav-link.active {
     color: black;
     font-size: 14px;
 }
+
 .me-auto {
     margin-left: auto !important;
     margin-right: 0 !important;
 }
+
 .form-control {
     width: 50%;
     margin-left: auto !important;
     height: 25px;
     background-color: rgb(199 184 184 / 33%);
 }
+
 .d-flex {
     align-items: center;
 }
+
 .btn {
     color: black;
     border: 1px solid black;
 }
+
 .btn-outline-success {
     --bs-btn-hover-bg: #0d1b2aa0;
     --bs-btn-hover-border-color: rgb(0, 0, 0);
@@ -84,6 +93,7 @@ body {
     width: 100%;
     height: 450px;
 }
+
 .bienvenida {
     text-align: center;
     color: black;
@@ -93,20 +103,24 @@ body {
     padding: 10px;
     margin-left: 10px;
 }
+
 .bienvenida h1 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 50px;
 }
+
 .bienvenida p {
     margin: 0;
 }
+
 .ingresar {
     background-color: #878c8f7d;
     border-radius: 5px;
     width: 20%;
-    padding: 30px;
+    padding: 25px;
     height: 320px;
 }
+
 .ingresar h2 {
     text-align: center;
     font-family: "Quicksand", sans-serif;
@@ -116,6 +130,7 @@ body {
     padding: 10px;
     margin: 0;
 }
+
 .ingresar form {
     display: flex;
     flex-direction: column;
@@ -125,6 +140,7 @@ body {
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
 }
+
 .afiliarme {
     display: flex;
     flex-direction: column;
@@ -132,14 +148,17 @@ body {
     align-items: center;
     margin-top: 2px;
 }
+
 .boton-afiliado {
     margin: 5px;
 }
+
 .boton {
     font-family: "Markazi Text", serif;
     border-radius: 3px;
     padding: 2px;
 }
+
 .banner {
     display: flex;
     justify-content: space-around;
@@ -147,19 +166,23 @@ body {
     background-color: #878c8f7d;
     padding: 15px;
 }
+
 .servicio {
     display: flex;
     align-items: center;
 }
+
 .servicio a {
     text-decoration: none;
     color: black;
     text-align: center;
     padding: 10px;
 }
-.servicio img{
+
+.servicio img {
     width: 50px;
 }
+
 .caja-novedades h2 {
     font-family: "Markazi Text", serif;
     font-size: 40px;
@@ -168,10 +191,12 @@ body {
     margin-top: 8px;
     margin-bottom: 0;
 }
+
 .caja-novedades p {
     text-align: center;
     color: black;
 }
+
 .novedades {
     display: flex;
     justify-content: space-around;
@@ -179,6 +204,7 @@ body {
     align-items: center;
     padding: 20px;
 }
+
 .novedades div {
     text-align: center;
     color: black;
@@ -186,26 +212,31 @@ body {
     width: 350px;
     height: 400px;
 }
-.novedades div h3{
+
+.novedades div h3 {
     font-size: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
 }
-.novedades div p{
+
+.novedades div p {
     font-family: "Quicksand", sans-serif;
     font-size: 15px;
     font-weight: 600;
     padding-bottom: 10px;
 }
-.novedades div img{
+
+.novedades div img {
     width: 300px;
     height: 200px;
 }
-.novedades div input{
+
+.novedades div input {
     width: 100px;
     background-color: aliceblue;
     color: black;
 }
+
 .wap {
     position: fixed;
     right: 20px;
@@ -224,29 +255,34 @@ body {
     height: 500px;
     padding: 80px;
 }
+
 .conocenos-bienvenida div {
     background-color: #878c8f7d;
     width: 50%;
     height: 320px;
     padding: 10px;
 }
-.conocenos-bienvenida div h1{
+
+.conocenos-bienvenida div h1 {
     font-size: 35px;
     text-align: justify;
     color: black;
 }
-.conocenos-bienvenida div h3{
+
+.conocenos-bienvenida div h3 {
     font-size: 15px;
     text-align: justify;
     color: black;
 }
-.conocenos-bienvenida div p{
+
+.conocenos-bienvenida div p {
     font-size: 15px;
     text-align: justify;
     padding: 12px;
     color: black;
     margin-bottom: 0px;
 }
+
 .caja-servicios h2 {
     font-family: "Markazi Text", serif;
     font-size: 40px;
@@ -255,10 +291,12 @@ body {
     margin-top: 8px;
     margin-bottom: 0;
 }
-.caja-servicios p{
+
+.caja-servicios p {
     text-align: center;
     color: black;
 }
+
 .grid-servicios {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -266,14 +304,17 @@ body {
     gap: 15px;
     margin: 10px;
 }
+
 .grid-cajas {
     position: relative;
 }
+
 .grid-cajas img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .grid-cajas h3 {
     position: absolute;
     bottom: 0;
@@ -284,12 +325,14 @@ body {
     font-size: 20px;
     font-weight: 100;
 }
+
 .mas-servicios {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
 }
+
 .mas-servicios a {
     text-decoration: none;
     color: black;
@@ -305,6 +348,7 @@ body {
     object-fit: cover;
     position: relative;
 }
+
 .servicios-2 {
     display: flex;
     justify-content: center;
@@ -312,29 +356,34 @@ body {
     margin-top: -80px;
     width: 100%;
 }
+
 .caja2-servicios {
     background-color: #878c8f7d;
     color: black;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     margin: 2px;
     width: 20%;
     font-family: "Quicksand", sans-serif;
 }
+
 .caja2-servicios h3 {
     font-size: 15px;
     font-weight: 300;
 }
+
 .caja2-servicios p {
     font-size: 10px;
     font-weight: 600;
 }
+
 .caja2-servicios button {
     background-color: #11244788;
     width: 30px;
     border: 0;
     border-radius: 5px;
 }
+
 .servicios-3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -343,6 +392,7 @@ body {
     column-gap: 5px;
     margin-top: 65px;
 }
+
 .caja3-servicios {
     display: flex;
     flex-direction: column;
@@ -353,6 +403,7 @@ body {
     background-color: #7c7c7c3d;
     height: 120px;
 }
+
 .caja3-servicios h2 {
     font-size: 15px;
     color: black;
@@ -362,9 +413,11 @@ body {
     margin: 5px;
     margin-bottom: 10px;
 }
+
 .caja3-servicios p {
     font-size: 12px;
 }
+
 .banner-1 {
     display: flex;
     justify-content: space-around;
@@ -373,27 +426,33 @@ body {
     padding: 15px;
     margin-top: 28px;
 }
-.servicio img{
+
+.servicio img {
     width: 50px;
 }
+
 .servicios-4 {
     display: flex;
     justify-content: space-around;
     margin: 20px;
 }
+
 .caja4-servicios h3 {
     font-size: 20px;
     font-weight: 700;
     color: black;
 }
+
 .caja4-servicios p {
     font-size: 12px;
     text-align: justify;
     color: black;
 }
+
 .caja4-servicios i {
     padding-right: 5px;
 }
+
 .form-servicios {
     display: flex;
     flex-direction: column;
@@ -408,21 +467,25 @@ body {
     background-color: #878c8f7d;
     padding: 8px;
 }
+
 .saludybienestar h1 {
     font-family: "Bebas Neue", sans-serif;
 }
+
 .saludybienestar p {
     padding: 5px 10px 10px 8px;
     color: black;
     font-size: 17px;
 }
+
 .link-saludybienestar a {
-    padding-right: 30px;
+    padding-right: 20px;
     border-top: 2px solid black;
     padding-top: 10px;
     color: #1B263B;
     text-decoration: none;
 }
+
 .caja-destacados-a {
     font-family: "Markazi Text", serif;
     color: black;
@@ -430,6 +493,7 @@ body {
     padding: 10px 0 0 10px;
     font-weight: 600;
 }
+
 .destacados {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -437,15 +501,18 @@ body {
     gap: 15px;
     margin-bottom: 8px;
 }
+
 .caja-destacados {
     background-size: cover;
 }
+
 .caja-destacados h4 {
     color: black;
     background-color: rgba(255, 255, 255, 0.671);
     font-family: "Cal Sans", sans-serif;
     margin-bottom: 2px;
 }
+
 .caja-destacados button {
     background-color: #7c7c7c8d;
     width: 30%;
@@ -455,10 +522,12 @@ body {
     font-family: "QuickSand", sans-serif;
     font-size: 12px;
 }
+
 .w-100 {
     height: 450px;
     object-fit: cover;
 }
+
 .carousel-caption {
     color: black;
     background-color: #ffffff47;
@@ -474,6 +543,7 @@ body {
     font-size: xxx-large;
     padding-top: 5px;
 }
+
 .form-contacto {
     display: flex;
     flex-direction: column;
@@ -482,21 +552,25 @@ body {
     font-size: 20px;
     color: black;
 }
+
 .form-contacto input {
     width: 50%;
     height: 30px;
     border-radius: 10px;
     margin: 15px;
 }
-.form-contacto select{
+
+.form-contacto select {
     text-align: center;
     width: 250px;
     padding: 5px;
 }
+
 .urgencias {
     display: flex;
     justify-content: space-around;
 }
+
 .tarjetas {
     display: flex;
     flex-direction: column;
@@ -509,20 +583,19 @@ body {
     margin: 20px;
     border-radius: 10px;
 }
+
 .tarjetas h2 {
     font-family: "Markazi Text", serif;
     font-size: 22px;
 }
+
 .tarjetas img {
     width: 32px;
 }
+
 .tarjetas a {
     text-decoration: none;
     color: #1B263B;
-}
-.tarjetas p {
-    font-family: "Markazi Text", serif;
-    font-size: 20px;
 }
 
 /* ---------------FOOTER---------------- */
@@ -532,62 +605,77 @@ footer {
     color: black;
     padding-bottom: 15px;
 }
+
 .foot {
     display: flex;
     justify-content: space-around;
     padding: 10px;
     padding-right: 0;
 }
-.foot div h4, h3{
+
+.foot div h4,
+h3 {
     font-family: "Cal Sans", sans-serif;
     font-size: 12px;
     font-weight: 600;
     margin: 0;
 }
+
 .foot ol {
     padding: 0;
     margin-bottom: 0;
 }
+
 .ospa p {
     margin: 0;
 }
+
 .ospa img {
     width: 50px;
     color: black;
     padding-left: 15px;
     padding-top: 10px;
 }
+
 .informacion ol li {
     list-style: none;
 }
+
 .informacion a {
     text-decoration: none;
     color: black;
 }
+
 .afiliarse ol li {
     list-style: none;
 }
+
 .afiliarse a {
     text-decoration: none;
     color: black;
 }
+
 .icon {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: center;
 }
+
 .icons {
     padding-top: 5px;
 }
+
 .icons a {
     text-decoration: none;
     color: black;
     padding-left: 5px;
 }
+
 .icons img {
     width: 15px;
 }
+
 .privacidad {
     display: flex;
     justify-content: space-around;
@@ -595,25 +683,48 @@ footer {
     border-top: 1px solid black;
     padding-top: 10px;
 }
+
 .privacidad a {
     color: black;
 }
+
 .privacidad p {
     margin: 0;
 }
 
 /* ----------------- MEDIA QUERIE --------------- */
 @media screen and (max-width: 1170px) {
+    .ingresar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .ingresar h2 {
         font-size: 12px;
         text-align: center;
     }
+
     .boton {
         font-size: 12px;
-        padding: 0;
+        font-family: "Markazi Text", serif;
+        border-radius: 3px;
+        padding: 2px;
     }
+
     .ingresar form {
         width: 150px;
+        font-family: "QuickSand", sans-serif;
+    }
+    .caja2-servicios h3{
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    .caja2-servicios p{
+        font-size: 8px;
+    }
+    .caja3-servicios p{
+        font-size: 10px;
     }
 }
 
@@ -621,19 +732,39 @@ footer {
     .ingresar h2 {
         font-size: 10px;
     }
+
     .ingresar form {
         font-size: 12px;
         font-weight: 500;
     }
+
     .ingresar {
         width: 200px;
         height: 280px;
     }
-    .conocenos-bienvenida div{
-        height: 340px;
+
+    .conocenos-bienvenida div {
+        height: 310px;
+        width: 50%;
     }
-    .conocenos-bienvenida p{
+
+    .conocenos-bienvenida div p {
         font-size: 13px;
+    }
+    .novedades div img{
+        width: 250px;
+    }
+    .novedades div h3{
+        font-size: 15px;
+    }
+    .novedades div p{
+        font-size: 12px;
+    }
+    .caja-destacados h4{
+        font-size: 18px;
+    }
+    .caja-destacados button{
+        font-size: 10px;
     }
 }
 
@@ -642,94 +773,220 @@ footer {
         font-size: 15px;
     }
     .navbar-collapse {
-        background-color: #1B263B !important;
+        background-color: #FCF7FF !important;
+    }
+
+    .servicio {
+        font-size: 10px;
+    }
+
+    .banner img {
+        width: 40px;
+    }
+    .caja2-servicios p{
+        font-weight: 400;
+        color: black;
+    }
+    .saludybienestar h1{
+        font-size: 25px;
+    }
+    .saludybienestar p{
+        font-size: 12px;
+    }
+    .saludybienestar a{
+        font-size: 10px;
+    }
+    .caja-destacados h4{
+        font-size: 15px;
+    }
+    .caja-destacados button{
+        font-size: 10px;
     }
 }
 
 @media screen and (max-width: 992px) {
     .navbar {
-        padding-top: 0;
-        height: 80px;
+        height: 60px;
     }
+
     .servicio {
         font-size: 10px;
     }
+
     .banner img {
         width: 40px;
     }
+
     .privacidad p {
         font-size: 10px;
     }
+
     .privacidad a {
         font-size: 10px;
     }
-    .navbar-nav .nav-link.active {
-        margin: 5px;
-    }
+
     .navbar-collapse {
         background-color: #112447ba;
     }
+
     .collapse {
         padding: 0;
     }
-    .conocenos-bienvenida{
-        height: 350px;
+
+    .conocenos-bienvenida div {
+        height: 260px;
     }
-    .conocenos-bienvenida div{
-        height: 250px;
-    }
-    .conocenos-bienvenida h1{
+
+    .conocenos-bienvenida div h1 {
         font-size: 20px;
     }
-    .conocenos-bienvenida p{
-        font-size: 10px;
-    }
-    .caja-servicios h2{
-        font-size: 30px;
-    }
-    .caja-servicios p{
+
+    .conocenos-bienvenida div p {
         font-size: 12px;
     }
-    .grid-servicios{
+
+    .caja-servicios h2 {
+        font-size: 30px;
+    }
+
+    .caja-servicios p {
+        font-size: 12px;
+    }
+
+    .grid-servicios {
         grid-template-rows: 250px 250px;
     }
-    .mas-servicios{
+
+    .mas-servicios {
+        font-size: 12px;
+    }
+    .caja-destacados button{
+        font-size: 8px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .carousel-caption h5{
+        font-size: 15px;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+        height: 80px;
+        padding-top: 0;
+    }
+    .d-flex{
+        margin: 5px;
+    }
+    .me-auto{
+        padding-left: 10px;
+    }
+    .form-control{
+        width: 20%;
+    }
+    .conocenos-bienvenida div{
+        width: 60%;
+    }
+    .caja2-servicios{
+        width: 25%;
+        margin: 4px;
+    }
+    .caja3-servicios h2{
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 840px) {
-    .bienvenida p{
+    .bienvenida p {
         font-size: 12px;
     }
-    .novedades h3{
+
+    .novedades h3 {
         font-size: 15px;
     }
-    .novedades p{
+
+    .novedades p {
         font-size: 12px;
     }
-    .servicios a{
+
+    .servicios a {
         font-size: 8px;
         padding: 5px;
     }
-    .privacidad{
+
+    .privacidad {
         flex-direction: column;
         text-align: center;
     }
-    .conocenos-bienvenida h1{
+    .conocenos-bienvenida{
+        height: 420px;
+    }
+
+    .conocenos-bienvenida div h1 {
         font-size: 18px;
     }
-    .conocenos-bienvenida h3{
+
+    .conocenos-bienvenida div h3 {
         font-size: 12px;
     }
-    .conocenos-bienvenida p{
-        font-size: 8px;
+
+    .conocenos-bienvenida div p {
+        font-size: 10px;
     }
-    .conocenos-bienvenida div{
-        height: 220px;
+
+    .conocenos-bienvenida div {
+        height: 250px;
+        padding: 12px;
     }
-    .grid-cajas h3{
+
+    .grid-cajas h3 {
         font-size: 12px;
+    }
+    .caja2-servicios{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 0;
+        padding-left: 0;
+        width: 30%;
+        margin: 2px;
+    }
+    .caja3-servicios{
+        margin-top: 5px;
+    }
+    .caja3-servicios p{
+        font-size: 9px;
+    }
+    .w-100{
+        height: 400px;
+    }
+    .saludybienestar p{
+        font-size: 10px;
+    }
+    .destacados{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 200px);
+    }
+    .caja-1 p{
+        font-size: 30px;
+    }
+    .form-contacto{
+        font-size: 12px;
+    }
+    .tarjetas h2{
+        font-size: 15px;
+    }
+    .tarjetas p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .tarjetas a{
+        font-size: 10px;
+    }
+    .tarjetas img{
+        width: 20px;
     }
 }
 
@@ -737,227 +994,417 @@ footer {
     .main-section {
         flex-direction: column;
     }
+
     .bienvenida {
         padding-bottom: 0;
     }
-    .bienvenida p{
+
+    .bienvenida p {
         font-size: 15px;
     }
+
     .ingresar {
         width: 400px;
-        height: 230px;
+        height: 245px;
         padding: 20px;
-        background-color: #1b263bbc;
+        background-color: #878c8f7d;
     }
+
     .ingresar h2 {
         font-size: 12px;
         padding: 2px;
         margin-bottom: 5px;
         text-align: center;
     }
+
     .ingresar form {
         width: 100%;
         font-size: 15px;
         align-items: center;
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "QuickSand", sans-serif;
     }
+
     form a {
         margin-top: 5px;
     }
+
     .boton {
         font-size: 15px;
         font-family: "Markazi Text", serif;
-        border-radius: 8px;
-        background-color: white;
+        border-radius: 3px;
+        padding: 2px;
     }
+
     .boton-afiliado {
         display: none;
     }
+
     .afiliarme {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 2px;
     }
-    .banner img{
+
+    .banner img {
         width: 25px;
     }
+
     .foot {
         font-size: 10px;
     }
+
     .ospa h3 {
         font-size: 10px;
     }
+
     .foot h4 {
         font-size: 10px;
     }
-    .conocenos-bienvenida{
+
+    .conocenos-bienvenida {
         height: 320px;
     }
-    .grid-cajas h3{
+    .conocenos-bienvenida div{
+        width: 75%;
+    }
+    .grid-cajas h3 {
         font-size: 12px;
+    }
+    .caja2-servicios h3{
+        font-size: 10px;
+    }
+    .caja3-servicios h2{
+        font-size: 10px;
+    }
+    .servicio img{
+        width: 40px;
+    }
+    .caja4-servicios h3{
+        font-size: 15px;
+    }
+    .caja4-servicios p{
+        font-size: 10px;
+    }
+    .form-servicios{
+        font-size: 10px;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .bienvenida p{
+    .bienvenida p {
         font-size: 12px;
     }
-    .banner{
+
+    .banner {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 3px;
     }
-    .servicio{
+
+    .servicio {
         display: flex;
         justify-content: center;
     }
-    .navbar{
+
+    .navbar {
         height: 70px;
     }
-    .foot{
+
+    .foot {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
-    .ospa, .informacion, .afiliarse, .icon{
+
+    .ospa,
+    .informacion,
+    .afiliarse,
+    .icon {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .privacidad p{
+
+    .privacidad p {
         font-size: 8px;
     }
-    .privacidad a{
+
+    .privacidad a {
         font-size: 8px;
     }
-    .conocenos-bienvenida div{
+
+    .conocenos-bienvenida div {
         width: 100%;
         height: 230px;
     }
-    .conocenos-bienvenida p{
+
+    .conocenos-bienvenida div p {
         font-size: 10px;
     }
-    .caja-servicios h2{
+
+    .caja-servicios h2 {
         font-size: 20px;
     }
-    .caja-servicios p{
+
+    .caja-servicios p {
         font-size: 10px;
     }
-    .mas-servicios{
+
+    .mas-servicios {
+        font-size: 10px;
+    }
+    .servicio img{
+        width: 30px;
+    }
+    .servicio a{
+        font-size: 8px;
+    }
+    .caja3-servicios h2{
+        margin: 2px;
+        padding: 8px;
+    }
+    .caja4-servicios h3{
+        font-size: 12px;
+    }
+    .servicios-4{
+        margin: 10px;
+    }
+    .tarjetas{
+        margin: 10px;
+    }
+    .tarjetas p{
         font-size: 10px;
     }
 }
 
 @media screen and (max-width: 591px) {
-    .conocenos-bienvenida div{
+    .ingresar form{
+        font-size: 12px;
+        margin: 5px;
+    }
+    .boton{
+        font-size: 12px;
+    }
+    .conocenos-bienvenida div {
         width: 100%;
         height: 220px;
     }
-    .conocenos-bienvenida p{
+
+    .conocenos-bienvenida div p {
         font-size: 10px;
         padding-top: 3px;
     }
-    .grid-servicios{
+
+    .grid-servicios {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 200px 200px;
         gap: 5px;
     }
-    .grid-cajas h3{
+
+    .grid-cajas h3 {
         font-size: 10px;
+    }
+    .caja2-servicios h3{
+        font-size: 8px;
+    }
+    .servicios-3{
+        margin-top: 50px;
+        row-gap: 35px;
+    }
+    .caja3-servicios{
+        height: 130px;
+        margin-bottom: 5px;
+    }
+    .caja3-servicios h2{
+        padding: 5px;
+    }
+    .caja4-servicios p{
+        font-size: 8px;
+    }
+    .form-servicios{
+        font-size: 8px;
+    }
+    .banner-1{
+        margin-top: 40px;
+    }
+    .saludybienestar a{
+        font-size: 8px;
+    }
+    .caja-1 p{
+        font-size: 25px;
+    }
+    .form-contacto{
+        font-size: 10px;
+    }
+    .tarjetas p{
+        font-size: 8px;
+    }
+    .foot{
+        font-size: 8px;
+    }
+    .foot div h4{
+        font-size: 8px;
     }
 }
 
 @media screen and (max-width: 454px) {
-    .conocenos-bienvenida div{
+    .conocenos-bienvenida div {
         height: 260px;
     }
-    .conocenos-bienvenida p{
+
+    .conocenos-bienvenida div p {
         font-size: 10px;
     }
-    
+    .caja2-servicios h3{
+        font-size: 6px;
+    }
+    .caja2-servicios p{
+        font-size: 7px;
+    }
+    .banner-1{
+        padding: 10px;
+    }
+    .caja3-servicios p{
+        font-size: 7px;
+        margin-top: 5px;
+    }
+    .caja4-servicios h3{
+        font-size: 10px;
+    }
+    .caja4-servicios p{
+        font-size: 6px;
+    }
+    .form-servicios{
+        font-size: 6px;
+    }
+    .caja-destacados h4{
+        font-size: 10px;
+    }
+    .caja-destacados button{
+        font-size: 6px;
+    }
+    .link-saludybienestar a{
+        padding-right: 5px;
+    }
+    .tarjetas{
+        margin: 8px;
+    }
+
 }
 
 @media screen and (max-width: 425px) {
-    header{
+    header {
         font-size: 8px;
     }
-    .bienvenida h1{
+
+    .bienvenida h1 {
         font-size: 30px;
     }
-    .ingresar{
+
+    .ingresar {
         width: 300px;
         padding-top: 10px;
     }
-    .novedades img{
+
+    .novedades img {
         width: 250px;
     }
-    .caja-novedades h2{
+
+    .caja-novedades h2 {
         font-size: 25px;
     }
-    .caja-novedades p{
+
+    .caja-novedades p {
         font-size: 12px;
     }
-    .servicio a{
+
+    .servicio a {
         font-size: 8px;
     }
-    .conocenos-bienvenida div{
+
+    .conocenos-bienvenida div {
         height: 250px;
     }
-    .conocenos-bienvenida h1{
+
+    .conocenos-bienvenida div h1 {
         font-size: 15px;
     }
-    .conocenos-bienvenida h3{
+
+    .conocenos-bienvenida div h3 {
         font-size: 10px;
     }
-    .conocenos-bienvenida p{
+
+    .conocenos-bienvenida div p {
         font-size: 9px;
+    }
+    .servicio img{
+        width: 20px;
+    }
+    .servicio a{
+        font-size: 5px;
+    }
+    .link-saludybienestar a{
+        padding-right: 0;
+    }
+    .tarjetas h2{
+        font-size: 12px;
+    }
+    .tarjetas p{
+        font-size: 6px;
+    }
+    .foot{
+        font-size: 6px;
+    }
+    .ospa h3{
+        font-size: 7px;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .conocenos-bienvenida div{
+    .conocenos-bienvenida div {
         height: 250px;
     }
-    .conocenos-bienvenida p{
+
+    .conocenos-bienvenida div p {
         font-size: 8px;
     }
-    .mas-servicios{
+
+    .mas-servicios {
+        font-size: 8px;
+    }
+    .caja3-servicios h2{
         font-size: 8px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .bienvenida h1{
-        background-color: #ffffff47;
-        border-radius: 999px;
-    }
-    .bienvenida p{
-        background-color: #ffffff47;
-        border-radius: 50px;
-        padding: 3px;
-    }
-    .ingresar{
+    .ingresar {
         width: 270px;
     }
-    .novedades img{
+
+    .novedades img {
         width: 200px;
     }
-    .foot{
+    .foot {
         font-size: 9px;
         padding-right: 10px;
     }
-    .ospa h3{
+
+    .ospa h3 {
         font-size: 9px;
     }
-    .ospa img{
+
+    .ospa img {
         width: 40px;
     }
-    .privacidad p{
+
+    .privacidad p {
         padding: 3px;
     }
-    .icons img{
+
+    .icons img {
         width: 10px;
     }
 }
