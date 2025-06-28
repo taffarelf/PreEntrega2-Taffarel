@@ -208,7 +208,6 @@ body {
 .novedades div {
     text-align: center;
     color: black;
-    border: 0 solid #7C7C7C;
     width: 350px;
     height: 400px;
 }
@@ -223,7 +222,7 @@ body {
     font-family: "Quicksand", sans-serif;
     font-size: 15px;
     font-weight: 600;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .novedades div img {
@@ -232,9 +231,85 @@ body {
 }
 
 .novedades div input {
+    font-family: "CalSans", sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
     width: 100px;
+    padding: 3px;
     background-color: aliceblue;
     color: black;
+}
+
+.boton-2:hover {
+    background-color: #878c8f7d;
+    transition: 0.5s;
+}
+
+.activar-beneficios{
+    color: black;
+    background-color: #878c8f7d;
+    text-align: center;
+    padding: 10px;
+}
+.beneficios {
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.beneficios h2 {
+    font-family: "Markazi Text", serif;
+    font-size: 40px;
+
+}
+
+.caja-beneficios {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caja2-beneficios {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.caja2-beneficios:hover{
+    background-color: #878c8f7d;
+}
+
+.caja2-beneficios h3 {
+    font-family: "QuickSand", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.caja2-beneficios img {
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+
+.mas-beneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.mas-beneficios a {
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #11244788;
 }
 
 .wap {
@@ -582,6 +657,7 @@ body {
 .urgencias {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .tarjetas {

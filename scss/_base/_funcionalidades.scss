@@ -9,3 +9,12 @@ $color-botones: #1B263B;
     flex-direction: $column;
     align-items: $center;
 }
+@mixin simple-display ($flex, $center){
+    display: $flex;
+    align-items: $center;
+}
+@mixin around ($flex, $space-around, $wrap){
+    display: $flex;
+    justify-content: $space-around;
+    flex-wrap: $wrap;
+}
