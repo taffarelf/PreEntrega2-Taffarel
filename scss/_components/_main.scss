@@ -114,6 +114,7 @@
     @include around (flex, space-around, wrap);
     align-items: center;
     padding: 20px;
+    padding-bottom: 0;
 
     div {
         text-align: center;
@@ -158,14 +159,15 @@
 }
 
 .activar-beneficios {
+    text-align: center;
     color: black;
     background-color: #878c8f7d;
-    text-align: center;
-    padding: 10px;
 }
 
 .beneficios {
+    color: black;
     text-align: center;
+    padding-bottom: 20px;
 
     h2 {
         font-family: "Markazi Text", serif;

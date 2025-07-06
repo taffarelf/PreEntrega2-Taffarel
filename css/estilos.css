@@ -190,6 +190,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   padding: 20px;
+  padding-bottom: 0;
 }
 .novedades div {
   text-align: center;
@@ -228,14 +229,15 @@ body {
 }
 
 .activar-beneficios {
+  text-align: center;
   color: black;
   background-color: rgba(135, 140, 143, 0.4901960784);
-  text-align: center;
-  padding: 10px;
 }
 
 .beneficios {
+  color: black;
   text-align: center;
+  padding-bottom: 20px;
 }
 .beneficios h2 {
   font-family: "Markazi Text", serif;
@@ -1063,6 +1065,19 @@ footer {
   .form-servicios {
     font-size: 10px;
   }
+  .servicios-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    gap: 2px;
+  }
+  .caja2-servicios {
+    width: 95%;
+    margin-left: 8px;
+  }
+  .servicios-3 {
+    margin-top: 5px;
+  }
 }
 @media screen and (max-width: 640px) {
   .bienvenida p {
@@ -1106,6 +1121,18 @@ footer {
   }
   .conocenos-bienvenida div p {
     font-size: 10px;
+  }
+  .activar-beneficios p {
+    font-size: 12px;
+  }
+  .beneficios h2 {
+    font-size: 30px;
+  }
+  .beneficios p {
+    font-size: 12px;
+  }
+  .caja2-beneficios h3 {
+    font-size: 12px;
   }
   .caja-servicios h2 {
     font-size: 20px;
@@ -1155,6 +1182,9 @@ footer {
     font-size: 10px;
     padding-top: 3px;
   }
+  .activar-beneficios p {
+    font-size: 10px;
+  }
   .grid-servicios {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 200px 200px;
@@ -1163,11 +1193,8 @@ footer {
   .grid-cajas h3 {
     font-size: 10px;
   }
-  .caja2-servicios h3 {
-    font-size: 8px;
-  }
   .servicios-3 {
-    margin-top: 50px;
+    margin-top: 5px;
     row-gap: 35px;
   }
   .caja3-servicios {
@@ -1212,27 +1239,29 @@ footer {
   .conocenos-bienvenida div p {
     font-size: 10px;
   }
-  .caja2-servicios h3 {
-    font-size: 6px;
-  }
-  .caja2-servicios p {
-    font-size: 7px;
-  }
   .banner-1 {
     padding: 10px;
   }
+  .servicios-3 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 100px 100px 100px;
+  }
   .caja3-servicios p {
-    font-size: 7px;
+    font-size: 10px;
     margin-top: 5px;
   }
-  .caja4-servicios h3 {
-    font-size: 10px;
+  .servicios-4 {
+    display: flex;
+    flex-direction: column;
   }
-  .caja4-servicios p {
-    font-size: 6px;
+  .caja4-servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .form-servicios {
-    font-size: 6px;
+    width: 50%;
   }
   .caja-destacados h4 {
     font-size: 10px;
@@ -1281,6 +1310,15 @@ footer {
   }
   .conocenos-bienvenida div p {
     font-size: 9px;
+  }
+  .activar-beneficios p {
+    font-size: 8px;
+  }
+  .caja2-beneficios h3 {
+    font-size: 10px;
+  }
+  .mas-beneficios {
+    font-size: 12px;
   }
   .servicio img {
     width: 20px;
