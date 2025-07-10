@@ -135,6 +135,15 @@ body {
 .ingresar form .boton-afiliado {
   margin: 5px;
 }
+.ingresar form .boton {
+  font-family: "Markazi Text", serif;
+  border-radius: 3px;
+  padding: 2px;
+  transition: 1s;
+}
+.ingresar form .boton:hover {
+  background-color: rgba(135, 140, 143, 0.4901960784);
+}
 
 .afiliarme {
   display: flex;
@@ -147,6 +156,10 @@ body {
   font-family: "Markazi Text", serif;
   border-radius: 3px;
   padding: 2px;
+  transition: 1s;
+}
+.afiliarme .boton:hover {
+  background-color: rgba(135, 140, 143, 0.4901960784);
 }
 
 .banner {
@@ -231,7 +244,10 @@ body {
 .activar-beneficios {
   text-align: center;
   color: black;
-  background-color: rgba(135, 140, 143, 0.4901960784);
+  background: linear-gradient(90deg, #878c8f, #8b9a8c, #c8c1c1);
+  height: 100px;
+  padding-top: 40px;
+  margin-bottom: 20px;
 }
 
 .beneficios {
@@ -249,6 +265,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .caja2-beneficios {
@@ -278,7 +295,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin-top: 50px;
 }
 .mas-beneficios a {
   text-decoration: none;
@@ -384,6 +401,11 @@ body {
   border-radius: 5px;
   padding: 15px;
   background-color: rgba(17, 36, 71, 0.5333333333);
+}
+
+.animate__animated.animate__pulse {
+  --animate-duration: 3s;
+  --animate-infinite: infinite;
 }
 
 /* MAIN PAGINA DE SERVICIOS */
@@ -546,6 +568,10 @@ body {
   font-weight: 600;
 }
 
+.caja-destacados-a p {
+  font-size: 20px;
+}
+
 .destacados {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -600,6 +626,17 @@ section div .form-contacto select {
   text-align: center;
   width: 250px;
   padding: 5px;
+  transition: 1s;
+}
+section div .form-contacto select:hover {
+  background-color: rgba(135, 140, 143, 0.4901960784);
+}
+
+.enviar {
+  transition: 1s;
+}
+.enviar:hover {
+  scale: 0.9;
 }
 
 .urgencias {
@@ -619,6 +656,10 @@ section div .form-contacto select {
   height: 180px;
   margin: 20px;
   border-radius: 10px;
+  transition: 1s;
+}
+.tarjetas:hover {
+  transform: scale(1.1);
 }
 .tarjetas h2 {
   font-family: "Markazi Text", serif;
@@ -951,7 +992,11 @@ footer {
     font-size: 9px;
   }
   .w-100 {
-    height: 400px;
+    height: 300px;
+  }
+  .d-none {
+    display: flex !important;
+    flex-direction: column;
   }
   .saludybienestar p {
     font-size: 10px;
@@ -963,8 +1008,8 @@ footer {
   .caja-1 p {
     font-size: 30px;
   }
-  .form-contacto {
-    font-size: 12px;
+  .form-contacto label, p {
+    font-size: 15px;
   }
   .tarjetas h2 {
     font-size: 15px;
@@ -1106,7 +1151,6 @@ footer {
   .icon {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
   .privacidad p {
@@ -1165,6 +1209,9 @@ footer {
   .tarjetas p {
     font-size: 10px;
   }
+  .form-contacto label, input, select, p {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 591px) {
   .ingresar form {
@@ -1219,13 +1266,16 @@ footer {
   .caja-1 p {
     font-size: 25px;
   }
-  .form-contacto {
+  .form-contacto p {
     font-size: 10px;
   }
   .tarjetas p {
     font-size: 8px;
   }
   .foot {
+    font-size: 8px;
+  }
+  .foot div h3 {
     font-size: 8px;
   }
   .foot div h4 {
@@ -1334,6 +1384,9 @@ footer {
   }
   .tarjetas p {
     font-size: 6px;
+  }
+  .form-contacto p {
+    font-size: 8px;
   }
   .foot {
     font-size: 6px;
