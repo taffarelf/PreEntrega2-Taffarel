@@ -1,5 +1,7 @@
 Hi, my name is Fiorella. Im from Argentina!
+
 A passionate frontend developer from Argentina
+
 🔭 I’m currently working on OSPA
 
 🌱 I’m currently learning Desarrollo Web
