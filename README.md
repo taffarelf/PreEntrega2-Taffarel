@@ -1,4 +1,4 @@
-Hi, my name is Fiorella. Im from Argentina!
+Hi, my name is Fiorella!
 
 A passionate frontend developer from Argentina
 
