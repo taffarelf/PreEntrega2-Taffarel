@@ -136,10 +136,6 @@
         background-color: #112447ba;
     }
 
-    .collapse {
-        padding: 0;
-    }
-
     .conocenos-bienvenida div {
         height: 260px;
     }
@@ -198,7 +194,7 @@
         width: 60%;
     }
     .caja2-servicios{
-        width: 25%;
+        width: 22%;
         margin: 4px;
     }
     .caja3-servicios h2{
@@ -257,7 +253,7 @@
         padding-bottom: 10px;
         padding-right: 0;
         padding-left: 0;
-        width: 30%;
+        width: 22%;
         margin: 2px;
     }
     .caja3-servicios{
@@ -410,8 +406,11 @@
         gap: 2px;
     }
     .caja2-servicios{
-        width: 95%;
-        margin-left: 8px;
+        width: 85%;
+        margin-left: 20px;
+    }
+    .caja2-servicios:hover{
+        scale: 0.9;
     }
     .servicios-3{
         margin-top: 5px;
@@ -552,6 +551,9 @@
     .grid-cajas h3 {
         font-size: 10px;
     }
+    .caja2-servicios:hover{
+        scale: 0.8;
+    }
     .servicios-3{
         margin-top: 5px;
         row-gap: 35px;
@@ -582,7 +584,7 @@
         font-size: 10px;
     }
     .tarjetas p{
-        font-size: 8px;
+        font-size: 12px;
     }
     .foot{
         font-size: 8px;
@@ -591,6 +593,9 @@
         font-size: 8px;
     }
     .foot div h4{
+        font-size: 8px;
+    }
+    .ospa p{
         font-size: 8px;
     }
 }
@@ -699,17 +704,11 @@
     .servicio img{
         width: 20px;
     }
-    .servicio a{
-        font-size: 5px;
-    }
     .link-saludybienestar a{
         padding-right: 0;
     }
     .tarjetas h2{
         font-size: 12px;
-    }
-    .tarjetas p{
-        font-size: 6px;
     }
     .form-contacto p{
         font-size: 8px;
